@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <script>
+    var path = window.location.pathname;
+    var language = path.includes('/es/') ? 'es' : null;
+    if (language == null) language = path.includes('/en/') ? 'en' : null;
+    if (language == null){
+      window.location.href = path.replace( new RegExp('/blog/.*'), '/blog/en/404.html');
+    } else {
+      window.location.href = path.replace( new RegExp('/' + language + '/.*'), '/' + language + '/404.html');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Migrar a Hugo desde Jekyll &middot; </title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://eduardo-ortega102.github.io/blog/favicon.ico" />
+    <link rel="canonical" href="https://eduardo-ortega102.github.io/blog/es/post/migrating-from-jekyll/" />
+
+     <meta name="description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content u" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="https://eduardo-ortega102.github.io/blog/img/team.jpg"/>
+    
+ 
+    <meta name="twitter:title" content="Migrar a Hugo desde Jekyll"/>
+    <meta name="twitter:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content u"/>
+    <meta name="twitter:url" content="https://eduardo-ortega102.github.io/es/post/migrating-from-jekyll/" />
+    <meta name="twitter:site" content="@duardnaranjo"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="Migrar a Hugo desde Jekyll &middot; Blog de Eduardo Ortega" />
+    <meta property="og:url" content="https://eduardo-ortega102.github.io/blog/es/post/migrating-from-jekyll/" />
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content u" />
+
+    <meta property="article:published_time" content="2014-03-10T00:00:00Z" />
+    
+
+    <meta property="og:image" content="https://eduardo-ortega102.github.io/blog/img/team.jpg"/>
+
+
+    <meta name="generator" content="Hugo 0.55.6" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+     <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/custom.css" />  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/404.css" /> 
+
+     
+
+</head>
+
+
+<body class="ctsingle">
+
+  <div class="site-wrapper"> 
+
+<header class="site-header outer " 
+  style="background-image: url(https://eduardo-ortega102.github.io/blog/img/cover.jpg)" >
+  <script src="https://use.fontawesome.com/ea92879745.js"></script>
+  <div class="inner">
+    <div class="language-menu">
+      
+      <a id="es" class="language-option">Español</a>
+      
+      <a id="en" class="language-option">English</a>
+      
+    </div>
+    <script>
+      var path = window.location.pathname;
+      var currentLanguage = document.documentElement.lang;
+      var languages = document.getElementsByClassName('language-option');
+      for (var index = 0; index < languages.length; index++) {
+        languages[index].href = path.replace('/' + currentLanguage + '/', '/' + languages[index].id + '/');;
+      }
+    </script>
+    <div class="site-header-content">
+      <h1 class="site-title"> Blog de Eduardo Ortega  </h1>
+      <h2 class="site-description">Apuntes de un desarrollador </h2>
+      <div class="social-media-links">
+        
+        <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
+          rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        
+        
+        <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
+            class="fa fa-github" aria-hidden="true"></i></a>
+        
+        
+        <a class="social-link" href="https://www.linkedin.com/in/eduardo-ortega-naranjo-7a7b70120/es" target="_blank"
+          rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        
+      </div>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left">
+        <ul class="nav" role="menu">
+          
+          
+          
+          <li
+            class=""
+            role="menuitem">
+            <a href="https://eduardo-ortega102.github.io/blog/es/">Inicio</a>
+          </li>
+          
+          <li
+            class=""
+            role="menuitem">
+            <a href="https://eduardo-ortega102.github.io/blog/es/about/">Sobre mi</a>
+          </li>
+          
+          <li
+            class=""
+            role="menuitem">
+            <a href="https://eduardo-ortega102.github.io/blog/es/categories/">Categorias</a>
+          </li>
+          
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+    <div class="post-feed">
+      <article class="post-card post">
+  
+  <div class="post-card-image" style="background-image: url(https://eduardo-ortega102.github.io/blog/img/team.jpg)"></div>
+  
+
+  <div class="post-card-content">
+    <header class="single-post-card-header">
+      <h1 class="post-card-title">Migrar a Hugo desde Jekyll</h1>
+      
+      <p class="full-date">
+        Publicado por
+        <strong>Eduardo Ortega Naranjo</strong>
+        el
+        <strong>10 de marzo de 2014</strong>
+      </p>
+      
+      <hr style="margin: 0px; margin-top: 16px;">
+    </header>
+    <section class="post-card-excerpt" style="padding: 0 25px;">
+      
+
+<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
+</code></pre>
+
+<p>should become</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+</code></pre>
+
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
+
+<h2 id="create-your-hugo-configuration-file">Create your Hugo configuration file</h2>
+
+<p>Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the <a href="https://eduardo-ortega102.github.io/blog/overview/configuration/">Hugo configuration documentation</a> for details.</p>
+
+<h2 id="set-your-configuration-publish-folder-to-site">Set your configuration publish folder to <code>_site</code></h2>
+
+<p>The default is for Jekyll to publish to <code>_site</code> and for Hugo to publish to <code>public</code>. If, like me, you have <a href="http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html"><code>_site</code> mapped to a git submodule on the <code>gh-pages</code> branch</a>, you&rsquo;ll want to do one of two alternatives:</p>
+
+<ol>
+<li><p>Change your submodule to point to map <code>gh-pages</code> to public instead of <code>_site</code> (recommended).</p>
+
+<pre><code>git submodule deinit _site
+git rm _site
+git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
+</code></pre></li>
+
+<li><p>Or, change the Hugo configuration to use <code>_site</code> instead of <code>public</code>.</p>
+
+<pre><code>{
+    ..
+    &quot;publishdir&quot;: &quot;_site&quot;,
+    ..
+}
+</code></pre></li>
+</ol>
+
+<h2 id="convert-jekyll-templates-to-hugo-templates">Convert Jekyll templates to Hugo templates</h2>
+
+<p>That&rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to <a href="http://jekyllrb.com/docs/templates/">Jekyll&rsquo;s template documentation</a> if you need to refresh your memory on how you built your blog and <a href="https://eduardo-ortega102.github.io/blog/layout/templates/">Hugo&rsquo;s template</a> to learn Hugo&rsquo;s way.</p>
+
+<p>As a single reference data point, converting my templates for <a href="http://heyitsalex.net/">heyitsalex.net</a> took me no more than a few hours.</p>
+
+<h2 id="convert-jekyll-plugins-to-hugo-shortcodes">Convert Jekyll plugins to Hugo shortcodes</h2>
+
+<p>Jekyll has <a href="http://jekyllrb.com/docs/plugins/">plugins</a>; Hugo has <a href="https://eduardo-ortega102.github.io/blog/doc/shortcodes/">shortcodes</a>. It&rsquo;s fairly trivial to do a port.</p>
+
+<h3 id="implementation">Implementation</h3>
+
+<p>As an example, I was using a custom <a href="https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb"><code>image_tag</code></a> plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.</p>
+
+<p>Jekyll&rsquo;s plugin:</p>
+
+<pre><code>module Jekyll
+  class ImageTag &lt; Liquid::Tag
+    @url = nil
+    @caption = nil
+    @class = nil
+    @link = nil
+    // Patterns
+    IMAGE_URL_WITH_CLASS_AND_CAPTION =
+    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;(\s+)-&gt;((https?:\/\/|\/)(\S+))(\s*)/i
+    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&quot;(.*?)&quot;/i
+    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
+    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
+    def initialize(tag_name, markup, tokens)
+      super
+      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
+        @class   = $1
+        @url     = $3
+        @caption = $7
+        @link = $9
+      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
+        @class   = $1
+        @url     = $3
+        @caption = $7
+      elsif markup =~ IMAGE_URL_WITH_CAPTION
+        @url     = $1
+        @caption = $5
+      elsif markup =~ IMAGE_URL_WITH_CLASS
+        @class = $1
+        @url   = $3
+      elsif markup =~ IMAGE_URL
+        @url = $1
+      end
+    end
+    def render(context)
+      if @class
+        source = &quot;&lt;figure class='#{@class}'&gt;&quot;
+      else
+        source = &quot;&lt;figure&gt;&quot;
+      end
+      if @link
+        source += &quot;&lt;a href=\&quot;#{@link}\&quot;&gt;&quot;
+      end
+      source += &quot;&lt;img src=\&quot;#{@url}\&quot;&gt;&quot;
+      if @link
+        source += &quot;&lt;/a&gt;&quot;
+      end
+      source += &quot;&lt;figcaption&gt;#{@caption}&lt;/figcaption&gt;&quot; if @caption
+      source += &quot;&lt;/figure&gt;&quot;
+      source
+    end
+  end
+end
+Liquid::Template.register_tag('image', Jekyll::ImageTag)
+</code></pre>
+
+<p>is written as this Hugo shortcode:</p>
+
+<pre><code>&lt;!-- image --&gt;
+&lt;figure {{ with .Get &quot;class&quot; }}class=&quot;{{.}}&quot;{{ end }}&gt;
+    {{ with .Get &quot;link&quot;}}&lt;a href=&quot;{{.}}&quot;&gt;{{ end }}
+        &lt;img src=&quot;{{ .Get &quot;src&quot; }}&quot; {{ if or (.Get &quot;alt&quot;) (.Get &quot;caption&quot;) }}alt=&quot;{{ with .Get &quot;alt&quot;}}{{.}}{{else}}{{ .Get &quot;caption&quot; }}{{ end }}&quot;{{ end }} /&gt;
+    {{ if .Get &quot;link&quot;}}&lt;/a&gt;{{ end }}
+    {{ if or (or (.Get &quot;title&quot;) (.Get &quot;caption&quot;)) (.Get &quot;attr&quot;)}}
+    &lt;figcaption&gt;{{ if isset .Params &quot;title&quot; }}
+        {{ .Get &quot;title&quot; }}{{ end }}
+        {{ if or (.Get &quot;caption&quot;) (.Get &quot;attr&quot;)}}&lt;p&gt;
+        {{ .Get &quot;caption&quot; }}
+        {{ with .Get &quot;attrlink&quot;}}&lt;a href=&quot;{{.}}&quot;&gt; {{ end }}
+            {{ .Get &quot;attr&quot; }}
+        {{ if .Get &quot;attrlink&quot;}}&lt;/a&gt; {{ end }}
+        &lt;/p&gt; {{ end }}
+    &lt;/figcaption&gt;
+    {{ end }}
+&lt;/figure&gt;
+&lt;!-- image --&gt;
+</code></pre>
+
+<h3 id="usage">Usage</h3>
+
+<p>I simply changed:</p>
+
+<pre><code>{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &quot;having fun&quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; -&gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
+</code></pre>
+
+<p>to this (this example uses a slightly extended version named <code>fig</code>, different than the built-in <code>figure</code>):</p>
+
+<pre><code>{{% fig class=&quot;full&quot; src=&quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&quot; title=&quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&quot; link=&quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&quot; %}}
+</code></pre>
+
+<p>As a bonus, the shortcode named parameters are, arguably, more readable.</p>
+
+<h2 id="finishing-touches">Finishing touches</h2>
+
+<h3 id="fix-content">Fix content</h3>
+
+<p>Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that <code>hugo server --watch</code> is your friend. Test your changes and fix errors as needed.</p>
+
+<h3 id="clean-up">Clean up</h3>
+
+<p>You&rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&rsquo;t used, delete it.</p>
+
+<h2 id="a-practical-example-in-a-diff">A practical example in a diff</h2>
+
+<p><a href="http://heyitsalex.net/">Hey, it&rsquo;s Alex</a> was migrated in less than a <em>father-with-kids day</em> from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this <a href="https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610">diff</a>.</p>
+
+    </section>
+
+    <footer class="post-card-meta">
+      <img class="author-profile-image" src="https://eduardo-ortega102.github.io/blog/img/avatar.jpg"
+        alt="Author" />
+      <span class="post-card-author"><a href="https://eduardo-ortega102.github.io/blog/">Eduardo Ortega Naranjo</a></span>
+    </footer>
+  </div>
+</article>
+    </div>
+
+    <nav class="pagination" role="navigation">
+      
+          <a class="newer-posts" href="https://eduardo-ortega102.github.io/blog/es/post/goisforlovers/">&larr; <span class="hide">Next Post</span></a>
+      
+      <span class="page-number">&nbsp;</span>
+      
+    </nav>
+
+    
+    
+    
+
+  </div>
+</main>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section>
+      <a href="https://eduardo-ortega102.github.io/blog//es"> Blog de Eduardo Ortega </a>
+    </section>
+    <section class="copyright" style="line-height: 1.3em; text-align: center;">
+      <a href="https://eduardo-ortega102.github.io/blog/"></a> © 2019 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a
+          href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a
+          href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="footer-nav">
+      <div class="social-media-links">
+        
+        <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
+          rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <span class="vertical-line"></span>
+        
+        
+        <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
+            class="fa fa-github" aria-hidden="true"></i>
+        </a>
+        <span class="vertical-line"></span>
+        
+        
+        <a class="social-link" href="https://www.linkedin.com/in/eduardo-ortega-naranjo-7a7b70120/es" target="_blank"
+          rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+        
+      </div>
+    </nav>
+  </div>
+</footer>
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+</body></html>
