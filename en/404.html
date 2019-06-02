@@ -18,9 +18,9 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/built/screen.css" />
   <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/css/casper-two.css" />
-  
-  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/custom.css" /> 
-  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/404.css" /> 
+
+  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/custom.css" />
+  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/404.css" />
 </head>
 
 <body>
@@ -34,54 +34,56 @@
     }
   </style>
 
-  <div class="error404-wrapper">
-    <div id='error404' class="error404">
+  <div class="error404-wrapper" style="background-image: url(/blog/img/404_1_2.jpg);">
+    <div id='error404' class="error404" style="background-image: url(/blog/img/404_2_2.jpg);">
       <script>
-        var number = Math.floor(Math.random() * 3) + 1;
-        var div = document.getElementById('error404');
-        div.style.backgroundImage = 'url(/blog/img/404_' + number + '_2.jpg)';
+        var number = Math.floor(Math.random() * 2) + 1;
+        if (number == 1) {
+          document.getElementById('error404').style.backgroundImage = 'none !important';
+        }
       </script>
       <div class="error404-text">
         <h2>404 - Page not Found</h2>
-        <p>The page you&#39;ve tried to access does not exist. Seriously, I checked. It&#39;s not here. But don&#39;t panic! I have created an wonderfull button to guide you back to safety.</p>
+        <p>The page you&#39;ve tried to access does not exist. Seriously, I checked. It&#39;s not here. But don&#39;t
+          panic! I have created an wonderfull button to guide you back to safety.</p>
         <a class="error404-link" href="https://eduardo-ortega102.github.io/blog/en">Home Page</a>
       </div>
     </div>
   </div>
 
   <footer class="site-footer outer">
-  <div class="site-footer-content inner">
-    <section>
-      <a href="https://eduardo-ortega102.github.io/blog//en"> Eduardo Ortega&#39;s blog </a>
-    </section>
-    <section class="copyright" style="line-height: 1.3em; text-align: center;">
-      <a href="https://eduardo-ortega102.github.io/blog/"></a> © 2019 <br>
-      <span style="font-size: 0.8em; color: #555;">Hugo port of <a
-          href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a
-          href="https://www.telematika.org">EM</a></span>
-    </section>
-    <nav class="footer-nav">
-      <div class="social-media-links">
-        
-        <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
-          rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <span class="vertical-line"></span>
-        
-        
-        <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
-            class="fa fa-github" aria-hidden="true"></i>
-        </a>
-        <span class="vertical-line"></span>
-        
-        
-        <a class="social-link" href="https://www.linkedin.com/in/eduardo-ortega-naranjo-7a7b70120/en" target="_blank"
-          rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i>
-        </a>
-        
-      </div>
-    </nav>
-  </div>
-</footer>
+    <div class="site-footer-content inner">
+      <section>
+        <a href="https://eduardo-ortega102.github.io/blog//en"> Eduardo Ortega&#39;s blog </a>
+      </section>
+      <section class="copyright" style="line-height: 1.3em; text-align: center;">
+        <a href="https://eduardo-ortega102.github.io/blog/"></a> © 2019 <br>
+        <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper
+            2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+      </section>
+      <nav class="footer-nav">
+        <div class="social-media-links">
+
+          <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
+            rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <span class="vertical-line"></span>
+
+
+          <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
+              class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <span class="vertical-line"></span>
+
+
+          <a class="social-link" href="https://www.linkedin.com/in/eduardo-ortega-naranjo-7a7b70120/en" target="_blank"
+            rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+
+        </div>
+      </nav>
+    </div>
+  </footer>
 </body>
+
 </html>

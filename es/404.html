@@ -34,12 +34,13 @@
     }
   </style>
 
-  <div class="error404-wrapper">
-    <div id='error404' class="error404">
+  <div class="error404-wrapper" style="background-image: url(/blog/img/404_1_2.jpg);">
+    <div id='error404' class="error404" style="background-image: url(/blog/img/404_2_2.jpg);">
       <script>
-        var number = Math.floor(Math.random() * 3) + 1;
-        var div = document.getElementById('error404');
-        div.style.backgroundImage = 'url(/blog/img/404_' + number + '_2.jpg)';
+        var number = Math.floor(Math.random() * 2) + 1;
+        if (number == 1){
+          document.getElementById('error404').style.backgroundImage = 'none !important'; 
+        }
       </script>
       <div class="error404-text">
         <h2>404 - Página no Encontrada</h2>
