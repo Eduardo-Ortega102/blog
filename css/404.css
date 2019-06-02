@@ -7,7 +7,7 @@
 .error404 {
     height: inherit;
     background-size: cover;
-    background-image: url(/img/404_1.jpg);
+    background-color: #b69a72;
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
