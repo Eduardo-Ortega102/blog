@@ -48,6 +48,7 @@ Save it somewhere specific as we will be using it in " />
     <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/built/screen.css" /> 
     <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/css/casper-two.css" /> 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
      <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/custom.css" />  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/404.css" /> 
 
      
@@ -123,6 +124,7 @@ Save it somewhere specific as we will be using it in " />
           
         </ul>
       </div>
+      
     </nav>
   </div>
 </header>
@@ -132,7 +134,40 @@ Save it somewhere specific as we will be using it in " />
   <div class="inner">
     
     <div class="post-feed">
-      <article class="post-card post">
+      <div id="progress-bar-container" class="progress-bar-container">
+  <div class="progress-bar"></div>
+  <a class="progress-bar-link" href="https://eduardo-ortega102.github.io/blog/es/">
+    <img src="https://eduardo-ortega102.github.io/blog/img/logo.png">
+    blog
+  </a>
+  <span class="progress-bar-title">Comenzando con Hugo</span>
+  <div class="social-share-bar">
+      <a class="social-share-link twitter"
+    onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
+    href="https://twitter.com/intent/tweet?text=Comenzando%20con%20Hugo&amp;url=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-twitter-square"></i>
+</a>
+
+<a class="social-share-link facebook"
+    onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
+    href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-facebook-square"></i>
+</a>
+
+<a class="social-share-link linkedin"
+    onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
+    href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-linkedin-square"></i>
+</a>
+
+<div style="display: inline-block;">
+    <a class="social-share-link copy" onclick="copyToClipboard(this)"><i class="fa fa-clipboard"></i></a>
+    <div class="speech-bubble">¡Copiado!</div>
+</div>
+  </div>
+</div>
+
+<article class="post-card post">
   
   <div class="post-card-image" style="background-image: url(https://eduardo-ortega102.github.io/blog/img/tags.jpg)"></div>
   
@@ -142,7 +177,7 @@ Save it somewhere specific as we will be using it in " />
       <h1 class="post-card-title">Comenzando con Hugo</h1>
       
       <p class="full-date">
-        Publicado por
+        Escrito por
         <strong>Eduardo Ortega Naranjo</strong>
         el
         <strong>2 de junio de 2014</strong>
@@ -150,16 +185,40 @@ Save it somewhere specific as we will be using it in " />
       
       <span class="post-card-tags">
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/go">#go</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/go">go</a>  
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/golang">#golang</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/golang">golang</a>  
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/hugo">#hugo</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/hugo">hugo</a>  
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/development">#development</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/development">development</a>  
          
       </span>
       
+      <div class="social-share" style="margin: 0%;">
+          <a class="social-share-link twitter"
+    onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
+    href="https://twitter.com/intent/tweet?text=Comenzando%20con%20Hugo&amp;url=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-twitter-square"></i>
+</a>
+
+<a class="social-share-link facebook"
+    onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
+    href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-facebook-square"></i>
+</a>
+
+<a class="social-share-link linkedin"
+    onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
+    href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-linkedin-square"></i>
+</a>
+
+<div style="display: inline-block;">
+    <a class="social-share-link copy" onclick="copyToClipboard(this)"><i class="fa fa-clipboard"></i></a>
+    <div class="speech-bubble">¡Copiado!</div>
+</div>
+      </div>
       <hr style="margin: 0px; margin-top: 16px;">
     </header>
     <section class="post-card-excerpt" style="padding: 0 25px;">
@@ -245,21 +304,42 @@ Having nearly instant feedback enables you to have your creativity flow without 
     </section>
 
     <footer class="post-card-meta">
-      <img class="author-profile-image" src="https://eduardo-ortega102.github.io/blog/img/avatar.jpg"
+      <img class="author-profile-image" src="https://eduardo-ortega102.github.io/blog/"
         alt="Author" />
       <span class="post-card-author"><a href="https://eduardo-ortega102.github.io/blog/">Eduardo Ortega Naranjo</a></span>
     </footer>
+  </div>
+  <div class="social-share">
+    <h4>COMPARTE ESTE ARTÍCULO</h4>
+    <a class="social-share-link twitter"
+    onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
+    href="https://twitter.com/intent/tweet?text=Comenzando%20con%20Hugo&amp;url=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-twitter-square"></i>
+</a>
+
+<a class="social-share-link facebook"
+    onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
+    href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-facebook-square"></i>
+</a>
+
+<a class="social-share-link linkedin"
+    onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
+    href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo">
+    <i class="fa fa-linkedin-square"></i>
+</a>
+
+<div style="display: inline-block;">
+    <a class="social-share-link copy" onclick="copyToClipboard(this)"><i class="fa fa-clipboard"></i></a>
+    <div class="speech-bubble">¡Copiado!</div>
+</div>
   </div>
 </article>
     </div>
 
     <nav class="pagination" role="navigation">
-      
-          <a class="newer-posts" href="https://eduardo-ortega102.github.io/blog/es/post/awesomeness/">&larr; <span class="hide">Next Post</span></a>
-      
+        
       <span class="page-number">&nbsp;</span>
-      
-          <a class="older-posts" href="https://eduardo-ortega102.github.io/blog/es/post/goisforlovers/"><span class="hide">Previous Post</span> &rarr;</a>
       
     </nav>
 
@@ -330,11 +410,15 @@ s.setAttribute('data-timestamp', +new Date());
 </div>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/routes.js"></script>
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/lunr.js"></script>
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/search.js"></script>
 <script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/progress-bar.js"></script>
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/copyToClipBoard.js"></script>
+<script type="text/javascript" src="https://use.fontawesome.com/ea92879745.js"></script>
 
 <script>hljs.initHighlightingOnLoad();</script>
-
-
 
 
 </body></html>
