@@ -12,6 +12,9 @@ const ROUTES = (function router() {
         },
         getImagesUrl() {
             return this.ROOT + 'img/';
+        },
+        getLanguage(){
+            return window.location.pathname.includes('/es/') ? 'es' : 'en';
         }
     });
 })();

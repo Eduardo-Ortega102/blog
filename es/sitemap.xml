@@ -96,6 +96,22 @@
   </url>
   
   <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/development/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/development/"
+                />
+  </url>
+  
+  <url>
     <loc>https://eduardo-ortega102.github.io/blog/es/categories/kyojin/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -139,22 +155,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/es/categories/development/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/development/"
                 />
   </url>
   
