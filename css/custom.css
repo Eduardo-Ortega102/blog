@@ -150,12 +150,12 @@ p {
 .current-language::before {
     content: '\2714';
     position: absolute;
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
     margin-top: -0.8px;
     margin-left: -30px;
     color: #fff;
-    font-size: 19px;
+    font-size: 20px;
     background-color: #4da514;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
