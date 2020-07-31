@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on </title>
+    <link>https://eduardo-ortega102.github.io/blog/es/categories/</link>
+    <description>Recent content in Categories on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>development</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/development/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kyojin</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/kyojin/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/kyojin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag1</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/tag1/</link>
+      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/go/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/golang/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/hugo/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templates</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/templates/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/templates/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>themes</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/categories/themes/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/categories/themes/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

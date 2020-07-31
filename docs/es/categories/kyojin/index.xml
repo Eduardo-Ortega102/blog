@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kyojin on </title>
+    <link>https://eduardo-ortega102.github.io/blog/es/categories/kyojin/</link>
+    <description>Recent content in kyojin on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/es/categories/kyojin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creando un nuevo tema</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/</guid>
+      <description>Introducción Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+    </item>
+    
+  </channel>
+</rss>
