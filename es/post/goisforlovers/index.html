@@ -12,7 +12,7 @@
     <link rel="shortcut icon" href="https://eduardo-ortega102.github.io/blog/favicon.ico" />
     <link rel="canonical" href="https://eduardo-ortega102.github.io/blog/es/post/goisforlovers/" />
 
-     <meta name="description" content="This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic." /> 
+     <meta name="description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In o" /> 
 
      
     
@@ -21,7 +21,7 @@
     
  
     <meta name="twitter:title" content="Plantillas con (Hu)go"/>
-    <meta name="twitter:description" content="This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic."/>
+    <meta name="twitter:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In o"/>
     <meta name="twitter:url" content="https://eduardo-ortega102.github.io/es/post/goisforlovers/" />
     <meta name="twitter:site" content="@duardnaranjo"/>
 
@@ -31,7 +31,7 @@
     
 
     <meta property="og:type" content="article" />
-    <meta property="og:description" content="This is a description. Hugo uses the **excellent** go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic." />
+    <meta property="og:description" content="Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In o" />
 
     <meta property="article:published_time" content="2014-04-02T00:00:00Z" />
     
@@ -46,84 +46,103 @@
     <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/css/casper-two.css" /> 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/fontawesome/css/solid.min.css">
      <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/custom.css" />  <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/404.css" /> 
 
      
-
 </head>
 
 
+
+
 <body class="ctsingle">
+  
+    <div class="site-wrapper">
 
-  <div class="site-wrapper"> 
-
-<header class="site-header outer " 
-  style="background-image: url(https://eduardo-ortega102.github.io/blog/img/cover.jpg)" >
-  <script src="https://use.fontawesome.com/ea92879745.js"></script>
-  <div class="inner">
-    <div class="language-menu">
-      
-      <a id="es" class="language-option">Español</a>
-      
-      <a id="en" class="language-option">English</a>
-      
+      <nav id='navigation-bar' class='navigation-bar'>
+  <div class='content-wrapper'>
+    <div class='navigation-content'>
+      <div class='main-buttons'>
+        <a class='brand navigation-link' href="https://eduardo-ortega102.github.io/blog/es">Inicio</a>
+        <a class='brand navigation-link' href="https://eduardo-ortega102.github.io/blog/es">Blog</a>
+        <a id='menu-switch' href='javascript:void(0);' class='icon' onclick="toggleMenu()">
+          <div class='mobile-menu'>
+            <div class='horizontal-bar'></div>
+            <div class='horizontal-bar margin'></div>
+            <div class='horizontal-bar'></div>
+          </div>
+        </a>
+      </div>
+      <div class='navigation-buttons'>
+        <a class='navigation-link' href="https://eduardo-ortega102.github.io/blog/es/categories/">Categorías</a>
+        <a class='navigation-link' href="https://www.theagilecrafter.com/es/#about-me">Sobre Mí</a>
+        <a class='navigation-link' href="https://www.theagilecrafter.com/es/#contact">Contacto</a>
+        <div class="dropdown" onclick="openLanguageMenu()">
+          Idioma
+          <i class="fa fa-caret-down"></i>
+          <div id="languageDropdown" class="dropdown-content">
+            <a id='es' onclick="changeLanguage('es')" class='language-option'>Español</a>
+            <a id='en' onclick="changeLanguage('en')" class='language-option'>English</a>
+          </div>
+        </div>
+      </div>
     </div>
-    <script>
-      var path = window.location.pathname;
-      var currentLanguage = document.documentElement.lang;
-      var languages = document.getElementsByClassName('language-option');
-      for (var index = 0; index < languages.length; index++) {
-        languages[index].href = path.replace('/' + currentLanguage + '/', '/' + languages[index].id + '/');
-        if (languages[index].id == currentLanguage) languages[index].classList.add('current-language');
-      }
-    </script>
-    <div id="progress-bar-container" class="progress-bar-container">
-      <div class="progress-bar"></div>
-      <a class="progress-bar-link" href="https://eduardo-ortega102.github.io/blog/es/">
-        <img src="https://eduardo-ortega102.github.io/blog/img/logo.png">
-        blog
-      </a>
-      <span class="progress-bar-title">Plantillas con (Hu)go</span>
-      <div class="social-share-bar">
-          <a class="social-share-link twitter"
+  </div>
+</nav>
+<div id="progress-bar-container" class="progress-bar-container">
+  <div class="progress-bar"></div>
+  <span class="progress-bar-title">Plantillas con (Hu)go</span>
+  <div class="social-share-bar">
+    <a class="social-share-link twitter"
     onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
     href="https://twitter.com/intent/tweet?text=Plantillas%20con%20%28Hu%29go&amp;url=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-twitter-square"></i>
+    <i class="fab fa-twitter-square"></i>
 </a>
 
 <a class="social-share-link facebook"
     onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
     href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-facebook-square"></i>
+    <i class="fab fa-facebook-square"></i>
 </a>
 
 <a class="social-share-link linkedin"
     onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
     href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-linkedin-square"></i>
+    <i class="fab fa-linkedin"></i>
 </a>
 
-<div style="display: inline-block;">
-    <a class="social-share-link copy" onclick="copyToClipboard(this)"><i class="fa fa-clipboard"></i></a>
-    <div class="speech-bubble">¡Copiado!</div>
+  </div>
 </div>
-      </div>
-    </div>
+<header class="site-header outer " 
+  style="background-image: url(https://eduardo-ortega102.github.io/blog/img/cover.jpg)" >
+  <script type="text/javascript" src="https://www.theagilecrafter.com/js/functions.js"></script>
+  <div class="inner">
+    <script>
+      var currentLanguage = document.documentElement.lang;
+      if (currentLanguage == 'es') {
+        document.getElementById('es').classList.add('current-language');
+      } else {
+        document.getElementById('en').classList.add('current-language');
+      }
+    </script>
     <div class="site-header-content">
       <h1 class="site-title"> Blog de Eduardo Ortega  </h1>
       <h2 class="site-description">Apuntes de un desarrollador </h2>
       <div class="social-media-links">
         
         <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
-          rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        
+        
+        <a class="social-link" href="https://www.linkedin.com/in/eortegan/es/" target="_blank"
+          rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
         
         
         <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
-            class="fa fa-github" aria-hidden="true"></i></a>
-        
-        
-        <a class="social-link" href="https://www.linkedin.com/in/eduardo-ortega-naranjo-7a7b70120/es" target="_blank"
-          rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            class="fab fa-github" aria-hidden="true"></i></a>
         
       </div>
     </div>
@@ -133,38 +152,18 @@
         <ul class="nav" role="menu">
           
           
-          
-          <li
-            class=""
-            role="menuitem">
-            <a href="https://eduardo-ortega102.github.io/blog/es/">Inicio</a>
-          </li>
-          
-          <li
-            class=""
-            role="menuitem">
-            <a href="https://eduardo-ortega102.github.io/blog/es/about/">Sobre mi</a>
-          </li>
-          
-          <li
-            class=""
-            role="menuitem">
-            <a href="https://eduardo-ortega102.github.io/blog/es/categories/">Categorias</a>
-          </li>
-          
         </ul>
       </div>
       
     </nav>
   </div>
 </header>
+      
 
-
-<main id="site-main" class="site-main outer" role="main">
-  <div class="inner">
-    
-    <div class="post-feed">
-      <article class="post-card post">
+      <main id="site-main" class="site-main outer" role="main">
+        <div class="inner">
+          <div class="post-feed">
+            <article class="post-card post reading">
   
   <div class="post-card-image" style="background-image: url(https://eduardo-ortega102.github.io/blog/img/writing.jpg)"></div>
   
@@ -173,51 +172,66 @@
     <header class="single-post-card-header">
       <h1 class="post-card-title">Plantillas con (Hu)go</h1>
       
-      <p class="full-date">
-        Escrito por
-        <strong>Eduardo Ortega Naranjo</strong>
-        el
-        <strong>2 de abril de 2014</strong>
-      </p>
-      
       <span class="post-card-tags">
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/go">go</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/go">go</a>
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/golang">golang</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/golang">golang</a>
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/templates">templates</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/templates">templates</a>
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/themes">themes</a>  
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/themes">themes</a>
         
-        <a href="https://eduardo-ortega102.github.io/blog//es/categories/development">development</a>  
-         
+        <a href="https://eduardo-ortega102.github.io/blog//es/categories/development">development</a>
+        
       </span>
       
-      <div class="social-share" style="margin: 0%;">
+      <div class="entry-header">
+        <div class="author">
+          <a href="https://www.theagilecrafter.com/">
+            <img class="author-profile-image"
+              src="https://eduardo-ortega102.github.io/blog/img/avatar.jpg" alt="Author" />
+          </a>
+          <p>
+            Escrito por
+            <a href="https://www.theagilecrafter.com/">
+              <strong>Eduardo Ortega</strong>
+            </a>
+          </p>
+          <div class="post-date short-date">
+            <p>
+              <strong>
+                
+                02
+                
+                
+                abr 2014
+              </strong>
+            </p>
+          </div>
+        </div>
+        <div class="social-share" style="margin: 0%; border: 0px">
           <a class="social-share-link twitter"
     onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
     href="https://twitter.com/intent/tweet?text=Plantillas%20con%20%28Hu%29go&amp;url=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-twitter-square"></i>
+    <i class="fab fa-twitter-square"></i>
 </a>
 
 <a class="social-share-link facebook"
     onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
     href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-facebook-square"></i>
+    <i class="fab fa-facebook-square"></i>
 </a>
 
 <a class="social-share-link linkedin"
     onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
     href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-linkedin-square"></i>
+    <i class="fab fa-linkedin"></i>
 </a>
 
-<div style="display: inline-block;">
-    <a class="social-share-link copy" onclick="copyToClipboard(this)"><i class="fa fa-clipboard"></i></a>
-    <div class="speech-bubble">¡Copiado!</div>
-</div>
+        </div>
       </div>
+
       <hr style="margin: 0px; margin-top: 16px;">
     </header>
     <section class="post-card-excerpt" style="padding: 0 25px;">
@@ -560,70 +574,159 @@ so, such as in this example:</p>
 </code></pre>
 
     </section>
-
-    <footer class="post-card-meta">
-      <img class="author-profile-image" src="https://eduardo-ortega102.github.io/blog/"
-        alt="Author" />
-      <span class="post-card-author"><a href="https://eduardo-ortega102.github.io/blog/">Eduardo Ortega Naranjo</a></span>
-    </footer>
   </div>
   <div class="social-share">
-    <h4>COMPARTE ESTE ARTÍCULO</h4>
+    <h4>COMPARTE ESTE POST</h4>
     <a class="social-share-link twitter"
     onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
     href="https://twitter.com/intent/tweet?text=Plantillas%20con%20%28Hu%29go&amp;url=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-twitter-square"></i>
+    <i class="fab fa-twitter-square"></i>
 </a>
 
 <a class="social-share-link facebook"
     onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
     href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-facebook-square"></i>
+    <i class="fab fa-facebook-square"></i>
 </a>
 
 <a class="social-share-link linkedin"
     onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
     href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/es/post/goisforlovers">
-    <i class="fa fa-linkedin-square"></i>
+    <i class="fab fa-linkedin"></i>
 </a>
 
-<div style="display: inline-block;">
-    <a class="social-share-link copy" onclick="copyToClipboard(this)"><i class="fa fa-clipboard"></i></a>
-    <div class="speech-bubble">¡Copiado!</div>
-</div>
   </div>
 </article>
-    </div>
+          </div>
+        </div>
+      </main>
 
-    <nav class="pagination" role="navigation">
+      <aside class="read-next outer">
+        <div class="inner">
+          <div class="read-next-feed">
+            
+              
+              <article class="post-card post serial">
+  <a class="previous-article-label" href="https://eduardo-ortega102.github.io/blog/es/post/awesomeness/">
+    <h3>Post Anterior</h3>
+  </a>
+  
+  <a class="post-card-image-link" href="https://eduardo-ortega102.github.io/blog/es/post/awesomeness/">
+    <div class="post-card-image" style="background-image: url(https://eduardo-ortega102.github.io/blog/img/1.jpg)"></div>
+  </a>
+  
+
+  <div class="post-card-content">
+    <a class="post-card-content-link" href="https://eduardo-ortega102.github.io/blog/es/post/awesomeness/">
+      <header class="post-card-header">
         
-          <a class="newer-posts" href="https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme">&larr; <span class="hide">Next Post</span></a>
-      
-      <span class="page-number">&nbsp;</span>
-      
-          <a class="older-posts" href="https://eduardo-ortega102.github.io/blog/es/post/awesomeness"><span class="hide">Previous Post</span> &rarr;</a>
-      
-    </nav>
+        <h2 class="post-card-title">Genialidad</h2>
+      </header>
+      <section class="post-card-excerpt">
+        
+      </section>
+    </a>
 
-    
-    
+    <footer class="post-card-meta">
+      
+      <span class="post-card-tags">
+        
+        <a href="https://eduardo-ortega102.github.io/blog/es/categories/tag1">tag1</a>
+        
+        <a href="https://eduardo-ortega102.github.io/blog/es/categories/development">development</a>
+        
+      </span>
+      
+      <div class="post-card-author-and-date">
+        <a class="post-card-author" href="https://www.theagilecrafter.com/">
+          <img class="author-profile-image"
+            src="https://eduardo-ortega102.github.io/blog/img/avatar.jpg" alt="Author" />
+          <span>
+            Eduardo Ortega
+          </span>
+        </a>
+        <span class="short-date">
+          
+          26
+          
+          
+          sept 2014
+        </span>
+      </div>
+    </footer>
   </div>
-</main>
+</article>
+              
+              
+              <article class="post-card post serial">
+  <a class="next-article-label" href="https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/">
+    <h3>Post Siguiente</h3>
+  </a>
+  
+  <a class="post-card-image-link" href="https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/">
+    <div class="post-card-image" style="background-image: url(https://eduardo-ortega102.github.io/blog/img/welcome.jpg)"></div>
+  </a>
+  
+
+  <div class="post-card-content">
+    <a class="post-card-content-link" href="https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/">
+      <header class="post-card-header">
+        
+        <h2 class="post-card-title">Creando un nuevo tema</h2>
+      </header>
+      <section class="post-card-excerpt">
+        
+      </section>
+    </a>
+
+    <footer class="post-card-meta">
+      
+      <span class="post-card-tags">
+        
+        <a href="https://eduardo-ortega102.github.io/blog/es/categories/kyojin">kyojin</a>
+        
+        <a href="https://eduardo-ortega102.github.io/blog/es/categories/development">development</a>
+        
+      </span>
+      
+      <div class="post-card-author-and-date">
+        <a class="post-card-author" href="https://www.theagilecrafter.com/">
+          <img class="author-profile-image"
+            src="https://eduardo-ortega102.github.io/blog/img/avatar.jpg" alt="Author" />
+          <span>
+            Eduardo Ortega
+          </span>
+        </a>
+        <span class="short-date">
+          
+          28
+          
+          
+          sept 2014
+        </span>
+      </div>
+    </footer>
+  </div>
+</article>
+              
+            
+          </div>
+        </div>
+      </aside>
 
 
-
-<footer class="site-footer outer">
+      <footer class="site-footer outer">
   <div class="site-footer-content inner">
     <section>
-      <a href="https://eduardo-ortega102.github.io/blog//es"> Blog de Eduardo Ortega </a>
+      <a href="https://eduardo-ortega102.github.io/blog/es"> Blog de Eduardo Ortega </a>
     </section>
     <section class="copyright" style="line-height: 1.3em; text-align: center;">
-      <a href="https://eduardo-ortega102.github.io/blog/"></a> © 2019 <br>
+      <a href="https://eduardo-ortega102.github.io/blog/"></a>
+      Copyright © 2020
+      <br>
       
-      <span style="font-size: 0.8em; color: #555;">
-        Generated by 
-        <a href="https://gohugo.io">Hugo</a>
-        , personalized version of the
+      <span style="font-size: 0.8em;">
+        Customized
         <a href="https://www.telematika.org">EM</a>'s
         <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a>
         theme
@@ -633,39 +736,38 @@ so, such as in this example:</p>
     <nav class="footer-nav">
       <div class="social-media-links">
         
-        <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
-          rel="noopener"><i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <span class="vertical-line"></span>
-        
-        
         <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
-            class="fa fa-github" aria-hidden="true"></i>
+            class="fab fa-github" aria-hidden="true"></i>
         </a>
         <span class="vertical-line"></span>
         
         
-        <a class="social-link" href="https://www.linkedin.com/in/eduardo-ortega-naranjo-7a7b70120/es" target="_blank"
-          rel="noopener"><i class="fa fa-linkedin" aria-hidden="true"></i>
+        <a class="social-link" href="https://www.linkedin.com/in/eortegan/es/" target="_blank"
+          rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <span class="vertical-line"></span>
+        
+        
+        <a class="social-link social-link-tw" href="https://twitter.com/duardnaranjo" target="_blank"
+          rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i>
         </a>
         
       </div>
     </nav>
   </div>
 </footer>
-</div>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    </div>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 
 <script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/jquery.fitvids.js"></script>
 
 <script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/progress-bar.js"></script>
-<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/copyToClipBoard.js"></script>
 
-
-<script type="text/javascript" src="https://use.fontawesome.com/ea92879745.js"></script>
 
 <script>hljs.initHighlightingOnLoad();</script>
 
+    
+  </body>
 
-</body></html>
+  </html>

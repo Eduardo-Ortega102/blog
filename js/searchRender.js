@@ -183,18 +183,21 @@ const SEARCH_RENDER = (function () {
         var image = document.createElement('img');
         image.setAttribute('class', 'author-profile-image');
         image.setAttribute('src', ROUTES.ROOT + post.avatar);
-        var author = document.createElement('span');
-        author.setAttribute('class', 'post-card-author');
         var link = document.createElement('a');
-        link.setAttribute('href', '/'); //TODO: add author website
-        link.append(document.createTextNode(post.author));
-        author.append(link);
+        link.setAttribute('class', 'post-card-author');
+        link.setAttribute('href', post.authorWebsite); 
+        var author = document.createElement('span');
+        author.append(document.createTextNode(post.author));
+        link.append(image);
+        link.append(author);
         var date = document.createElement('span');
         date.setAttribute('class', 'short-date');
         date.append(document.createTextNode(post.formatedDate));
-        footer.append(image);
-        footer.append(author);
-        footer.append(date);
+        var author_and_date = document.createElement('div');
+        author_and_date.setAttribute('class', 'post-card-author-and-date');
+        author_and_date.append(link);
+        author_and_date.append(date);
+        footer.append(author_and_date);
         return footer;
     }
 
