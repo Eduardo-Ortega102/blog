@@ -66,22 +66,6 @@
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/ddockerfiles/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/ddockerfiles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/ddockerfiles/"
-                />
-  </url>
-  
-  <url>
     <loc>https://eduardo-ortega102.github.io/blog/en/categories/devops/</loc>
     <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
@@ -110,6 +94,22 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://eduardo-ortega102.github.io/blog/en/categories/docker/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/dockerfiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/"
                 />
   </url>
   
