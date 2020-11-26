@@ -10,7 +10,7 @@ p {
     text-align: justify;
 }
 
-.home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-image-link {
+.home-template .post-feed .post-card:nth-child(6n+1):not(.no-image) {
     flex-direction: column !important;
 }
 
