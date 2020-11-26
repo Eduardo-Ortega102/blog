@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/programming/</link>
+    <description>Recent content in programming on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Oct 2020 23:51:21 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Remove Duplicates from an Array with JavaScript</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</link>
+      <pubDate>Sun, 11 Oct 2020 23:51:21 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</guid>
+      <description>This way of removing duplicates is quite simple and elegant, thanks to the methods Array.filter() and Array.indexOf().
+The Array.filter() method creates a new array from an existing one, which contains only the elements that meet the filter criteria. The Array.indexOf() method, on the other hand, returns the index of the first element of an array whose value matches the one passed to it as a parameter.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/python/</link>
+    <description>Recent content in python on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Aug 2020 15:01:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>17 days running Google Colab</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/17-days-running-google-colab/</link>
+      <pubDate>Wed, 12 Aug 2020 15:01:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/17-days-running-google-colab/</guid>
+      <description>For my degree dissertation at the university, I need to run several experiments with different models of neural networks and download compressed files with the results and models learned, for this I am using an environment known as Google Collaboratory or Google Colab.</description>
+    </item>
+    
+  </channel>
+</rss>

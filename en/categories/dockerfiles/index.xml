@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dockerfiles on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/</link>
+    <description>Recent content in Dockerfiles on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Nov 2020 15:01:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker Image Optimization: from 1.16GB to 22.4MB</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</link>
+      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</guid>
+      <description>Docker is a platform for software developers and sysadmins to build, run, and share applications with containers. A container is a process that runs in an isolated environment, on its own filesystem; that filesystem is built using a docker image. Images include everything you need to run an application (compiled code, dependencies, libraries, etc.</description>
+    </item>
+    
+  </channel>
+</rss>

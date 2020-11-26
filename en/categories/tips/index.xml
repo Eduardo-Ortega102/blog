@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/tips/</link>
+    <description>Recent content in tips on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Nov 2020 15:01:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker Image Optimization: from 1.16GB to 22.4MB</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</link>
+      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</guid>
+      <description>Docker is a platform for software developers and sysadmins to build, run, and share applications with containers. A container is a process that runs in an isolated environment, on its own filesystem; that filesystem is built using a docker image. Images include everything you need to run an application (compiled code, dependencies, libraries, etc.</description>
+    </item>
+    
+    <item>
+      <title>Remove Duplicates from an Array with JavaScript</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</link>
+      <pubDate>Sun, 11 Oct 2020 23:51:21 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</guid>
+      <description>This way of removing duplicates is quite simple and elegant, thanks to the methods Array.filter() and Array.indexOf().
+The Array.filter() method creates a new array from an existing one, which contains only the elements that meet the filter criteria. The Array.indexOf() method, on the other hand, returns the index of the first element of an array whose value matches the one passed to it as a parameter.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>googlecolab on </title>
+    <link>https://eduardo-ortega102.github.io/blog/es/categories/googlecolab/</link>
+    <description>Recent content in googlecolab on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 12 Aug 2020 15:01:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/es/categories/googlecolab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>17 días ejecutando Google Colab</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/17-days-running-google-colab/</link>
+      <pubDate>Wed, 12 Aug 2020 15:01:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/17-days-running-google-colab/</guid>
+      <description>Para mi proyecto de final de grado en la universidad, necesito ejecutar varios experimentos con diferentes modelos de redes neuronales y descargar archivos comprimidos con los resultados y los modelos aprendidos, para ello estoy usando un entorno conocido como Google Colaboratory o Google Colab.</description>
+    </item>
+    
+  </channel>
+</rss>

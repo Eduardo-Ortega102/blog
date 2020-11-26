@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://eduardo-ortega102.github.io/blog/en/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -20,7 +20,7 @@
   
   <url>
     <loc>https://eduardo-ortega102.github.io/blog/en/categories/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -35,23 +35,87 @@
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/devops/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/devops/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/creating-a-new-theme/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/devops/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/docker/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/docker/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/docker/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/dockerfiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/optimization/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/optimization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/optimization/"
                 />
   </url>
   
   <url>
     <loc>https://eduardo-ortega102.github.io/blog/en/post/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -66,190 +130,175 @@
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/development/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/tips/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/development/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/tips/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/development/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/tips/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/kyojin/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</loc>
+    <lastmod>2020-10-11T23:51:21+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/remove-duplicates-from-an-array-with-javascript/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/algorithm/</loc>
+    <lastmod>2020-10-11T23:51:21+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/kyojin/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/algorithm/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/kyojin/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/algorithm/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/post/awesomeness/</loc>
-    <lastmod>2014-09-26T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/awesomeness/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/awesomeness/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/tag1/</loc>
-    <lastmod>2014-09-26T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/javascript/</loc>
+    <lastmod>2020-10-11T23:51:21+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/tag1/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/javascript/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/tag1/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/javascript/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/post/getting-started-with-hugo/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/getting-started-with-hugo/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/go/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/programming/</loc>
+    <lastmod>2020-10-11T23:51:21+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/go/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/programming/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/go/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/programming/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/golang/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/post/17-days-running-google-colab/</loc>
+    <lastmod>2020-08-12T15:01:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/17-days-running-google-colab/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/17-days-running-google-colab/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/googlecolab/</loc>
+    <lastmod>2020-08-12T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/golang/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/googlecolab/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/golang/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/googlecolab/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/hugo/</loc>
-    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/machinelearning/</loc>
+    <lastmod>2020-08-12T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/hugo/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/machinelearning/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/hugo/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/machinelearning/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/goisforlovers/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/goisforlovers/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/python/</loc>
+    <lastmod>2020-08-12T15:01:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/templates/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/python/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/templates/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/python/"
                 />
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/categories/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>https://eduardo-ortega102.github.io/blog/en/post/my-first-post/</loc>
+    <lastmod>2020-08-02T15:07:55+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/my-first-post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/my-first-post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/en/categories/apprenticeship/</loc>
+    <lastmod>2020-08-02T15:07:55+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/themes/"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/apprenticeship/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/themes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/en/post/migrating-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/migrating-from-jekyll/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/migrating-from-jekyll/"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/apprenticeship/"
                 />
   </url>
   

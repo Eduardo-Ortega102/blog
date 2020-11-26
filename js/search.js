@@ -78,6 +78,7 @@ $(document).ready(function () {
             this.ref('uri');
             this.field('title');
             this.field('summary');
+            this.field('categories');
             documents.forEach((document) => this.add(document), this);
         });
     });

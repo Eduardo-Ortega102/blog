@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>apprenticeship on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/apprenticeship/</link>
+    <description>Recent content in apprenticeship on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Aug 2020 15:07:55 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/apprenticeship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/my-first-post/</link>
+      <pubDate>Sun, 02 Aug 2020 15:07:55 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/my-first-post/</guid>
+      <description>Hello, everybody! Especially my future self. I have decided that in the first post of my blog I am going to explain why I am writing it and what I hope to achieve with it.
+First of all, I intend this blog to be an online notebook in which I will document theoretical and practical concepts about software development and computing in general.</description>
+    </item>
+    
+  </channel>
+</rss>

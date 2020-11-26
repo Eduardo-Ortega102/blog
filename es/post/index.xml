@@ -6,56 +6,47 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 15:01:11 +0100</lastBuildDate>
     
 	<atom:link href="https://eduardo-ortega102.github.io/blog/es/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creando un nuevo tema</title>
-      <link>https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Optimización de imágenes de Docker: de 1.16 GB a 22.4 MB</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/</link>
+      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/es/post/creating-a-new-theme/</guid>
-      <description>Introducción Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</description>
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/</guid>
+      <description>Docker es una plataforma para desarrolladores de software y administradores de sistemas que permite compilar, ejecutar y compartir aplicaciones con contenedores. Un contenedor es un proceso que se ejecuta en un entorno aislado, en su propio sistema de archivos; ese sistema de archivos se construye usando una imagen de Docker.</description>
     </item>
     
     <item>
-      <title>Genialidad</title>
-      <link>https://eduardo-ortega102.github.io/blog/es/post/awesomeness/</link>
-      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Eliminar Duplicados de un Array con JavaScript</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/remove-duplicates-from-an-array-with-javascript/</link>
+      <pubDate>Sun, 11 Oct 2020 23:51:21 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/es/post/awesomeness/</guid>
-      <description>Introducción Voy a asumir que estás familiarizado con HTML, CSS y JS.</description>
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/remove-duplicates-from-an-array-with-javascript/</guid>
+      <description>Esta forma de eliminar los duplicados es bastante simple y elegante, gracias a los métodos Array.filter() y Array.indexOf().
+El método Array.filter() crea un nuevo array a partir de uno existente, que contiene sólo los elementos que cumplen con el criterio del filtro.</description>
     </item>
     
     <item>
-      <title>Comenzando con Hugo</title>
-      <link>https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>17 días ejecutando Google Colab</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/17-days-running-google-colab/</link>
+      <pubDate>Wed, 12 Aug 2020 15:01:11 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/es/post/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo</description>
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/17-days-running-google-colab/</guid>
+      <description>Para mi proyecto de final de grado en la universidad, necesito ejecutar varios experimentos con diferentes modelos de redes neuronales y descargar archivos comprimidos con los resultados y los modelos aprendidos, para ello estoy usando un entorno conocido como Google Colaboratory o Google Colab.</description>
     </item>
     
     <item>
-      <title>Plantillas con (Hu)go</title>
-      <link>https://eduardo-ortega102.github.io/blog/es/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Mi Primer Post</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/my-first-post/</link>
+      <pubDate>Sun, 02 Aug 2020 15:07:55 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/es/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
-    </item>
-    
-    <item>
-      <title>Migrar a Hugo desde Jekyll</title>
-      <link>https://eduardo-ortega102.github.io/blog/es/post/migrating-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eduardo-ortega102.github.io/blog/es/post/migrating-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/my-first-post/</guid>
+      <description>¡Hola a todos! En especial a mi &amp;ldquo;yo&amp;rdquo; futuro. He decidido que en la primera entrada de mi blog voy a explicar por qué lo estoy escribiendo y qué espero conseguir con ello.
+En primer lugar, pretendo que este blog sea un cuaderno online en el que iré documentando conceptos teóricos y prácticos sobre desarrollo de software e informática en general.</description>
     </item>
     
   </channel>

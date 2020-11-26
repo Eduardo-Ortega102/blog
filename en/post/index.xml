@@ -6,56 +6,47 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2020 15:01:11 +0100</lastBuildDate>
     
 	<atom:link href="https://eduardo-ortega102.github.io/blog/en/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://eduardo-ortega102.github.io/blog/en/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Docker Image Optimization: from 1.16GB to 22.4MB</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</link>
+      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/en/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.</description>
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/</guid>
+      <description>Docker is a platform for software developers and sysadmins to build, run, and share applications with containers. A container is a process that runs in an isolated environment, on its own filesystem; that filesystem is built using a docker image. Images include everything you need to run an application (compiled code, dependencies, libraries, etc.</description>
     </item>
     
     <item>
-      <title>Awesomeness</title>
-      <link>https://eduardo-ortega102.github.io/blog/en/post/awesomeness/</link>
-      <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Remove Duplicates from an Array with JavaScript</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</link>
+      <pubDate>Sun, 11 Oct 2020 23:51:21 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/en/post/awesomeness/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme.</description>
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/remove-duplicates-from-an-array-with-javascript/</guid>
+      <description>This way of removing duplicates is quite simple and elegant, thanks to the methods Array.filter() and Array.indexOf().
+The Array.filter() method creates a new array from an existing one, which contains only the elements that meet the filter criteria. The Array.indexOf() method, on the other hand, returns the index of the first element of an array whose value matches the one passed to it as a parameter.</description>
     </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://eduardo-ortega102.github.io/blog/en/post/getting-started-with-hugo/</link>
-      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <title>17 days running Google Colab</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/17-days-running-google-colab/</link>
+      <pubDate>Wed, 12 Aug 2020 15:01:11 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/en/post/getting-started-with-hugo/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo</description>
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/17-days-running-google-colab/</guid>
+      <description>For my degree dissertation at the university, I need to run several experiments with different models of neural networks and download compressed files with the results and models learned, for this I am using an environment known as Google Collaboratory or Google Colab.</description>
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://eduardo-ortega102.github.io/blog/en/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>My First Post</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/my-first-post/</link>
+      <pubDate>Sun, 02 Aug 2020 15:07:55 +0100</pubDate>
       
-      <guid>https://eduardo-ortega102.github.io/blog/en/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://eduardo-ortega102.github.io/blog/en/post/migrating-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://eduardo-ortega102.github.io/blog/en/post/migrating-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</description>
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/my-first-post/</guid>
+      <description>Hello, everybody! Especially my future self. I have decided that in the first post of my blog I am going to explain why I am writing it and what I hope to achieve with it.
+First of all, I intend this blog to be an online notebook in which I will document theoretical and practical concepts about software development and computing in general.</description>
     </item>
     
   </channel>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>googlecolab &middot; Eduardo Ortega&#39;s blog</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://eduardo-ortega102.github.io/blog/favicon.ico" />
+    <link rel="canonical" href="https://eduardo-ortega102.github.io/blog/en/categories/googlecolab/" />
+
+    
+    <meta name="description" content="" /> 
+
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image" content="https://eduardo-ortega102.github.io/blog/img/cover.jpg"/>
+ 
+    <meta name="twitter:title" content="googlecolab"/>
+    <meta name="twitter:description" content=""/>
+    <meta name="twitter:url" content="https://eduardo-ortega102.github.io/en/categories/googlecolab/" />
+    <meta name="twitter:site" content="@agilecrafter"/>
+
+    <meta property="og:site_name" content="" />
+    <meta property="og:title" content="googlecolab &middot; Eduardo Ortega&#39;s blog" />
+    <meta property="og:url" content="https://eduardo-ortega102.github.io/blog/en/categories/googlecolab/" />
+    
+
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="" />
+
+    <meta property="og:image" content="https://eduardo-ortega102.github.io/blog/img/cover.jpg"/>
+
+    <meta name="generator" content="Hugo 0.55.6" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://eduardo-ortega102.github.io/blog/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900&display=swap">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/3.7.2.animate.min.css">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="https://www.theagilecrafter.com/css/fontawesome/css/solid.min.css">
+     
+    <link rel="stylesheet" href="https://eduardo-ortega102.github.io/blog/css/custom.css" /> 
+    
+
+    
+         
+    
+</head>
+
+
+
+  <body class="home-template"><div class="site-wrapper">
+  <nav id='navigation-bar' class='navigation-bar'>
+  <div class='content-wrapper'>
+    <div class='main-buttons'>
+      <a class='brand navigation-link' href="https://www.theagilecrafter.com/en">Home</a>
+      <a class='brand navigation-link' href="https://eduardo-ortega102.github.io/blog/en">Blog</a>
+      <a id='menu-switch' href='javascript:void(0);' class='icon' onclick="toggleMenu()">
+        <div class='mobile-menu'>
+          <div class='horizontal-bar'></div>
+          <div class='horizontal-bar margin'></div>
+          <div class='horizontal-bar'></div>
+        </div>
+      </a>
+    </div>
+    <div class='navigation-content animated fast'>
+      <div class='navigation-buttons'>
+        <a class='navigation-link' href="https://eduardo-ortega102.github.io/blog/en/categories/">Categories</a>
+        <a class='navigation-link' href="https://www.theagilecrafter.com/en/#about-me">About Me</a>
+        <a class='navigation-link' href="https://www.theagilecrafter.com/en/#contact">Contact</a>
+        <div class="dropdown" onclick="openLanguageMenu()">
+          Language
+          <i class="fa fa-caret-down"></i>
+          <div id="languageDropdown" class="dropdown-content animated fast">
+            <a id='es' onclick="changeLanguage('es')" class='language-option'>Español</a>
+            <a id='en' onclick="changeLanguage('en')" class='language-option'>English</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<div id="progress-bar-container" class="progress-bar-container">
+  <div class="progress-bar"></div>
+  <span class="progress-bar-title">googlecolab</span>
+  <div class="social-share-bar">
+    <a class="social-share-link twitter"
+    onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;"
+    href="https://twitter.com/intent/tweet?text=googlecolab&amp;url=https://eduardo-ortega102.github.io/blog/en/post/&via=agilecrafter">
+    <i class="fab fa-twitter-square"></i>
+</a>
+
+<a class="social-share-link facebook"
+    onclick="window.open(this.href, 'share-facebook', 'width=550,height=235');return false;"
+    href="https://www.facebook.com/sharer/sharer.php?u=https://eduardo-ortega102.github.io/blog/en/post/">
+    <i class="fab fa-facebook-square"></i>
+</a>
+
+<a class="social-share-link linkedin"
+    onclick="window.open(this.href, 'share-linkedin', 'width=550,height=235');return false;"
+    href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://eduardo-ortega102.github.io/blog/en/post/">
+    <i class="fab fa-linkedin"></i>
+</a>
+
+  </div>
+</div>
+<header class="site-header outer " 
+  style="background-image: url(https://eduardo-ortega102.github.io/blog/img/cover.jpg)" >
+  <script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/menu.js"></script>
+  <div class="inner">
+    <script>
+      var currentLanguage = document.documentElement.lang;
+      if (currentLanguage == 'es') {
+        document.getElementById('es').classList.add('current-language');
+      } else {
+        document.getElementById('en').classList.add('current-language');
+      }
+    </script>
+    <div class="site-header-content">
+      <h1 class="site-title"> Eduardo Ortega&#39;s blog  </h1>
+      <h2 class="site-description">Notes from a developer </h2>
+      <div class="social-media-links">
+        
+        <a class="social-link social-link-tw" href="https://twitter.com/agilecrafter" target="_blank"
+          rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+        
+        
+        <a class="social-link" href="https://www.linkedin.com/in/eortegan/en/" target="_blank"
+          rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+        
+        
+        <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
+            class="fab fa-github" aria-hidden="true"></i></a>
+        
+      </div>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left">
+        <ul class="nav" role="menu">
+          
+          
+        </ul>
+      </div>
+      
+    </nav>
+  </div>
+</header>
+
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    <div class="post-feed">
+      
+
+
+<article class="post-card post">
+  
+    <a class="post-card-image-link" href="https://medium.com/the-agile-crafter/17-days-running-google-colab-903ae0359919">
+      <div class="post-card-image" style="background-image: url(https://miro.medium.com/max/700/1*MYSepwn_bHkb_CdstXvnRg.png)"></div>
+    </a>
+  
+
+  <div class="post-card-content">
+    
+    <a class="post-card-content-link" href="https://medium.com/the-agile-crafter/17-days-running-google-colab-903ae0359919">
+    
+      <header class="post-card-header">
+        <h2 class="post-card-title">17 days running Google Colab</h2>
+      </header>
+      <section class="post-card-excerpt">
+        <p>For my degree dissertation at the university, I need to run several experiments with different models of neural networks and download compressed files with the results and models learned, for this I am using an environment known as Google Collaboratory or Google Colab.... </p>
+      </section>
+    </a>
+
+    <footer class="post-card-meta">
+      
+      <span class="post-card-tags">
+        
+        <a href="https://eduardo-ortega102.github.io/blog//en/categories/googlecolab">googlecolab</a>
+        
+        <a href="https://eduardo-ortega102.github.io/blog//en/categories/python">python</a>
+        
+        <a href="https://eduardo-ortega102.github.io/blog//en/categories/machinelearning">machinelearning</a>
+        
+      </span>
+      
+      <div class="post-card-author-and-date">
+        <a class="post-card-author" href="https://www.theagilecrafter.com/" >
+          <img  class="author-profile-image" 
+                src="https://eduardo-ortega102.github.io/blog/img/avatar.jpg"
+                alt="Author" 
+          />
+          <span>
+              Eduardo Ortega
+          </span>
+        </a>
+        <span class="short-date">
+          
+          12
+          
+          
+          Aug 2020
+        </span>
+      </div>
+    </footer>
+  </div>
+</article>
+
+    </div>
+
+    <nav class="pagination" role="navigation">
+        
+        <span class="page-number">
+          <span class="hide">
+            Page 1 of 1
+          </span>
+          &nbsp;
+        </span>
+        
+      </nav>
+  </div>
+</main>
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section>
+      <a href="https://eduardo-ortega102.github.io/blog/en"> Eduardo Ortega&#39;s blog </a>
+    </section>
+    <section class="copyright" style="line-height: 1.3em; text-align: center;">
+      <a href="https://eduardo-ortega102.github.io/blog/"></a>
+      Copyright © 2020
+      <br>
+      
+      <span style="font-size: 0.8em;">
+        Customized
+        <a href="https://www.telematika.org">EM</a>'s
+        <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a>
+        theme
+      </span>
+      
+    </section>
+    <nav class="footer-nav">
+      <div class="social-media-links">
+        
+        <a class="social-link" href="https://github.com/Eduardo-Ortega102" target="_blank" rel="noopener"><i
+            class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <span class="vertical-line"></span>
+        
+        
+        <a class="social-link" href="https://www.linkedin.com/in/eortegan/en/" target="_blank"
+          rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i>
+        </a>
+        <span class="vertical-line"></span>
+        
+        
+        <a class="social-link social-link-tw" href="https://twitter.com/agilecrafter" target="_blank"
+          rel="noopener"><i class="fab fa-twitter" aria-hidden="true"></i>
+        </a>
+        
+      </div>
+    </nav>
+  </div>
+</footer>
+</div><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript" src="https://eduardo-ortega102.github.io/blog/js/jquery.fitvids.js"></script>
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+</body></html>

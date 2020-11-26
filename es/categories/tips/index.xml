@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on </title>
+    <link>https://eduardo-ortega102.github.io/blog/es/categories/tips/</link>
+    <description>Recent content in Tips on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 01 Nov 2020 15:01:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/es/categories/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Optimización de imágenes de Docker: de 1.16 GB a 22.4 MB</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/</link>
+      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/</guid>
+      <description>Docker es una plataforma para desarrolladores de software y administradores de sistemas que permite compilar, ejecutar y compartir aplicaciones con contenedores. Un contenedor es un proceso que se ejecuta en un entorno aislado, en su propio sistema de archivos; ese sistema de archivos se construye usando una imagen de Docker.</description>
+    </item>
+    
+    <item>
+      <title>Eliminar Duplicados de un Array con JavaScript</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/remove-duplicates-from-an-array-with-javascript/</link>
+      <pubDate>Sun, 11 Oct 2020 23:51:21 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/remove-duplicates-from-an-array-with-javascript/</guid>
+      <description>Esta forma de eliminar los duplicados es bastante simple y elegante, gracias a los métodos Array.filter() y Array.indexOf().
+El método Array.filter() crea un nuevo array a partir de uno existente, que contiene sólo los elementos que cumplen con el criterio del filtro.</description>
+    </item>
+    
+  </channel>
+</rss>
