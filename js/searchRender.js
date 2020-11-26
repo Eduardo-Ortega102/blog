@@ -134,7 +134,7 @@ const SEARCH_RENDER = (function () {
         var image = document.createElement('div');
         image.setAttribute('class', 'post-card-image');
         if (post.image.includes('https')){
-            image.setAttribute('style', 'background-image: ' + post.image);
+            image.setAttribute('style', 'background-image: url(' + post.image + ')');
         } else {
             image.setAttribute('style', 'background-image: url(' + ROUTES.ROOT + post.image + ')');
         }
