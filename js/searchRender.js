@@ -133,7 +133,11 @@ const SEARCH_RENDER = (function () {
         link.setAttribute('href', post.uri);
         var image = document.createElement('div');
         image.setAttribute('class', 'post-card-image');
-        image.setAttribute('style', 'background-image: url(' + ROUTES.ROOT + post.image + ')');
+        if (post.image.includes('https')){
+            image.setAttribute('style', 'background-image: ' + post.image);
+        } else {
+            image.setAttribute('style', 'background-image: url(' + ROUTES.ROOT + post.image + ')');
+        }
         link.append(image);
         return link;
     }

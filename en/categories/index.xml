@@ -12,7 +12,16 @@
     
     
     <item>
-      <title>DevOps</title>
+      <title>dDockerfiles&#34;</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/categories/ddockerfiles/</link>
+      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/categories/ddockerfiles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devops</title>
       <link>https://eduardo-ortega102.github.io/blog/en/categories/devops/</link>
       <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
       
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>Docker</title>
+      <title>docker</title>
       <link>https://eduardo-ortega102.github.io/blog/en/categories/docker/</link>
       <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
       
@@ -30,16 +39,7 @@
     </item>
     
     <item>
-      <title>Dockerfiles</title>
-      <link>https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/</link>
-      <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
-      
-      <guid>https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Optimization</title>
+      <title>optimization</title>
       <link>https://eduardo-ortega102.github.io/blog/en/categories/optimization/</link>
       <pubDate>Sun, 01 Nov 2020 15:01:11 +0100</pubDate>
       

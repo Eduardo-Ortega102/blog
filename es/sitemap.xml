@@ -35,6 +35,53 @@
   </url>
   
   <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/post/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/ddockerfiles/</loc>
+    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/ddockerfiles/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/ddockerfiles/"
+                />
+  </url>
+  
+  <url>
     <loc>https://eduardo-ortega102.github.io/blog/es/categories/devops/</loc>
     <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
@@ -67,37 +114,6 @@
   </url>
   
   <url>
-    <loc>https://eduardo-ortega102.github.io/blog/es/categories/dockerfiles/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/dockerfiles/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/dockerfiles/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/docker-image-optimization-from-1.16gb-to-22.4mb/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/"
-                />
-  </url>
-  
-  <url>
     <loc>https://eduardo-ortega102.github.io/blog/es/categories/optimization/</loc>
     <lastmod>2020-11-01T15:01:11+01:00</lastmod>
     <priority>0</priority>
@@ -110,22 +126,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eduardo-ortega102.github.io/blog/es/categories/optimization/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/es/post/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/"
                 />
   </url>
   
