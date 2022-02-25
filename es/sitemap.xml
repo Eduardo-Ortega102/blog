@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://eduardo-ortega102.github.io/blog/es/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -20,7 +20,7 @@
   
   <url>
     <loc>https://eduardo-ortega102.github.io/blog/es/categories/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -31,6 +31,180 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eduardo-ortega102.github.io/blog/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/post/how-to-add-integration-tests-to-our-spring-boot-backend/</loc>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/how-to-add-integration-tests-to-our-spring-boot-backend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/how-to-add-integration-tests-to-our-spring-boot-backend/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/post/</loc>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/junit/</loc>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/junit/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/junit/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/maven/</loc>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/maven/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/maven/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/spring-boot/</loc>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/spring-boot/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/spring-boot/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/testing/</loc>
+    <lastmod>2022-02-24T12:19:11+01:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/testing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/testing/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/post/componentes-de-react-a%C3%B1adir-css-con-c%C3%B3digo-limpio/</loc>
+    <lastmod>2020-12-06T18:04:55+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/post/react-components-add-css-with-clean-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/post/componentes-de-react-a%C3%B1adir-css-con-c%C3%B3digo-limpio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/clean-code/</loc>
+    <lastmod>2020-12-06T18:04:55+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/clean-code/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/clean-code/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/css/</loc>
+    <lastmod>2020-12-06T18:04:55+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/css/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/react/</loc>
+    <lastmod>2020-12-06T18:04:55+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/react/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/react/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://eduardo-ortega102.github.io/blog/es/categories/tips/</loc>
+    <lastmod>2020-12-06T18:04:55+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://eduardo-ortega102.github.io/blog/en/categories/tips/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://eduardo-ortega102.github.io/blog/es/categories/tips/"
                 />
   </url>
   
@@ -46,22 +220,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eduardo-ortega102.github.io/blog/es/post/optimizaci%C3%B3n-de-im%C3%A1genes-de-docker-de-1.16-gb-a-22.4-mb/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/es/post/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/post/"
                 />
   </url>
   
@@ -126,22 +284,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://eduardo-ortega102.github.io/blog/es/categories/optimization/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://eduardo-ortega102.github.io/blog/es/categories/tips/</loc>
-    <lastmod>2020-11-01T15:01:11+01:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://eduardo-ortega102.github.io/blog/en/categories/tips/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://eduardo-ortega102.github.io/blog/es/categories/tips/"
                 />
   </url>
   

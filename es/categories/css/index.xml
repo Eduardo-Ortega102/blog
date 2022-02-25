@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on </title>
+    <link>https://eduardo-ortega102.github.io/blog/es/categories/css/</link>
+    <description>Recent content in css on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 06 Dec 2020 18:04:55 +0000</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/es/categories/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Componentes de React: añadir CSS con código limpio</title>
+      <link>https://eduardo-ortega102.github.io/blog/es/post/componentes-de-react-a%C3%B1adir-css-con-c%C3%B3digo-limpio/</link>
+      <pubDate>Sun, 06 Dec 2020 18:04:55 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/es/post/componentes-de-react-a%C3%B1adir-css-con-c%C3%B3digo-limpio/</guid>
+      <description>A la hora de diseñar aplicaciones con React, hay muchas formas de añadirle estilo a los componentes. Las que conocía hasta ahora eran las siguientes:
+ Importar un fichero de CSS con las clases necesarias y usar la propiedad “className” de JSX para añadirlas al componente.</description>
+    </item>
+    
+  </channel>
+</rss>

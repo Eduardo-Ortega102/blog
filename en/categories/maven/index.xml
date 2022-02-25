@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maven on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/maven/</link>
+    <description>Recent content in maven on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Feb 2022 12:19:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/maven/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to add Integration Tests to our Spring Boot backend</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/how-to-add-integration-tests-to-our-spring-boot-backend/</link>
+      <pubDate>Thu, 24 Feb 2022 12:19:11 +0100</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/how-to-add-integration-tests-to-our-spring-boot-backend/</guid>
+      <description>Spring Data JPA allows us to write queries to the database in several ways. The simplest option is to use inferred queries, where Spring creates the query from the repository’s method name, but there are occasions where we need more complex queries and we must write them directly using JPQL or native SQL.</description>
+    </item>
+    
+  </channel>
+</rss>

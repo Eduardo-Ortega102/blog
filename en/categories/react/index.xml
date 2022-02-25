@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react on </title>
+    <link>https://eduardo-ortega102.github.io/blog/en/categories/react/</link>
+    <description>Recent content in react on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Dec 2020 18:04:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://eduardo-ortega102.github.io/blog/en/categories/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React components: add CSS with clean code</title>
+      <link>https://eduardo-ortega102.github.io/blog/en/post/react-components-add-css-with-clean-code/</link>
+      <pubDate>Sun, 06 Dec 2020 18:04:49 +0000</pubDate>
+      
+      <guid>https://eduardo-ortega102.github.io/blog/en/post/react-components-add-css-with-clean-code/</guid>
+      <description>When it comes to designing applications with React, there are many ways to add style to components. The ones I knew so far were the following:
+ Import a CSS file with the necessary classes and use the JSX property “className” to add them to the component.</description>
+    </item>
+    
+  </channel>
+</rss>
